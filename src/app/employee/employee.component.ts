@@ -26,7 +26,7 @@ export class EmployeeComponent implements OnInit {
   }
 
   addButton(){
-    alert("ige");
+    //alert("ige");
     fetch(this.url, {
       method: 'post',
       body:JSON.stringify({
