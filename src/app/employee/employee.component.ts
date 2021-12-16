@@ -12,7 +12,7 @@ export class EmployeeComponent implements OnInit {
   url= 'http://localhost:3000/employees';
   fullname="";
   city="";
-  salary="";
+  salary=0;
  
   constructor() { }
 
@@ -23,6 +23,27 @@ export class EmployeeComponent implements OnInit {
       console.log(result);
       this.employees=result;
     }));
+  }
+
+  addButton(){
+    alert("ige");
+    fetch(this.url, {
+      method: 'post',
+      body:JSON.stringify({
+        fullname: this.fullname,
+        city: this.city,
+        salary: this.salary,
+      }),
+      
+      headers:{
+        "Content-Type":"application/json"
+      }
+
+    })
+    .then(Response => Response.json())
+      .then(result =>{
+        console.log(result);
+      });
   }
 
 }

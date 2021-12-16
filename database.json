@@ -1,32 +1,56 @@
 {
-    "employees": [
-        {
-            "id": 1,
-            "fullname": "Nagy János",
-            "city": "Szolnok",
-            "salary": 8400000
-        },
-        {
-            "id": 2,
-            "fullname": "Páros Lajos",
-            "city": "Szeged",
-            "salary": 3430000
-        },
-        {
-            "id": 3,
-            "fullname": "Aranyos Enikő",
-            "city": "Szolnok",
-            "salary": 4245000
-        }        
-    ],
-    "assignment": [
-        {
-            "id": 1,
-            "name": "tesztelő"
-        },
-        {
-            "id": 2,
-            "name": "mérnök"
-        }
-    ]
+  "employees": [
+    {
+      "id": 1,
+      "fullname": "Nagy János",
+      "city": "Szolnok",
+      "salary": 8400000
+    },
+    {
+      "id": 2,
+      "fullname": "Páros Lajos",
+      "city": "Szeged",
+      "salary": 3430000
+    },
+    {
+      "id": 3,
+      "fullname": "Aranyos Enikő",
+      "city": "Szolnok",
+      "salary": 4245000
+    },
+    {
+      "fullname": "",
+      "city": "",
+      "salary": 0,
+      "id": 4
+    },
+    {
+      "fullname": "",
+      "city": "",
+      "salary": 0,
+      "id": 5
+    },
+    {
+      "fullname": "",
+      "city": "",
+      "salary": 0,
+      "id": 6
+    },
+    {
+      "fullname": "asd",
+      "city": "",
+      "salary": 0,
+      "id": 7
+    }
+  ],
+  "assignment": [
+    {
+      "id": 1,
+      "name": "tesztelő"
+    },
+    {
+      "id": 2,
+      "name": "mérnök"
+    }
+  ]
 }

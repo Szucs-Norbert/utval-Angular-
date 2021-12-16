@@ -1,16 +1,22 @@
-
-
 <h1>Dolgozók</h1>
 
 <div>
+
     <label for="">Név</label>
-    <input type="text" [ngModel]="fullname"><br>
+    <input class= "form-control" type="text" [(ngModel)]="fullname"><br>
 
     <label for="">Település</label>
-    <input type="text" [ngModel]="city"><br>
+    <input class= "form-control" type="text" [(ngModel)]="city"><br>
 
     <label for="">Fizetés</label>
-    <input type="text" [ngModel]="salary"><br>
+    <input class= "form-control" type="text" [(ngModel)]="salary"><br>
+
+    <button (click)="addButton()"
+    class="btn btn-primary"
+    >Hozzáad</button>
+
+    <p></p>
+
 </div>
 
 <table class="table">
