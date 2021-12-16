@@ -8,6 +8,8 @@ import { EmployeeComponent } from './employee/employee.component';
 import { AssignmentComponent } from './assignment/assignment.component';
 import { NopageComponent } from './nopage/nopage.component';
 
+import { FormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,8 @@ import { NopageComponent } from './nopage/nopage.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

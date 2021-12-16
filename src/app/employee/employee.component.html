@@ -1,9 +1,24 @@
+
+
 <h1>Dolgozók</h1>
 
+<div>
+    <label for="">Név</label>
+    <input type="text" [ngModel]="fullname"><br>
 
-<table>
+    <label for="">Település</label>
+    <input type="text" [ngModel]="city"><br>
+
+    <label for="">Fizetés</label>
+    <input type="text" [ngModel]="salary"><br>
+</div>
+
+<table class="table">
     <tr *ngFor ="let  employee of employees">
+            <td>{{employee.id}}</td>
             <td>{{employee.fullname}}</td>
+            <td>{{employee.city}}</td>
+            <td>{{employee.salary}}</td>
 
     </tr>
 
